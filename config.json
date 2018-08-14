@@ -1,0 +1,10 @@
+{
+  "transport": "http",
+  "websocket": "http:192.168.1.88:8090",
+  "uri": "http:192.168.1.88:8090",
+  "url": "",
+  "dev_uri": "http:192.168.1.88:8090",
+  "stage_uri": "http:192.168.1.88:8090",
+  "address_prefix": "TST",
+  "chain_id": "18dcf0a285365fc58b71f18b3d3fec954aa0c141c44e4e5cb4cf777b9eab274e"
+}

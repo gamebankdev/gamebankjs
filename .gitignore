@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules
+.tern-port
+
+<<<<<<< HEAD
+=======
+dist/gamebank-tests.min.js*
+>>>>>>> 3068831634cd5684b72c125e9d698b14679994c8
+# node-dist
+.tern-port
+.envrc
+.idea
+.save
+lib
+dist

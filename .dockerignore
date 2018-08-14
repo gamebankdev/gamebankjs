@@ -1,0 +1,15 @@
+.idea
+.save
+logs
+*.log
+npm-debug.log*
+build/Release
+node_modules
+.tern-port
+<<<<<<< HEAD
+=======
+dist/gamebank-tests.min.js*
+>>>>>>> 3068831634cd5684b72c125e9d698b14679994c8
+.tern-port
+.envrc
+dist
