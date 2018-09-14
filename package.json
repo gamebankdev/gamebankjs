@@ -1,6 +1,6 @@
 {
   "name": "gamebank",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "GameBank.js the JavaScript API for gamebank blockchain",
   "main": "lib/index.js",
   "scripts": {

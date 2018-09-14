@@ -704,6 +704,15 @@ let comment_benefactor_reward = new Serializer(
     reward: asset
 }
 );
+var contract_call = new Serializer("contract_call", {
+    caller: string,
+    contract_name: string,
+    method: string,
+    args:  string
+});
+var notFound=new Serializer("notFound", {
+
+});
 
 operation.st_operations = [
     vote,    
@@ -747,7 +756,17 @@ operation.st_operations = [
     set_reset_account,    
     claim_reward_balance,    
     delegate_vesting_shares,    
-    account_create_with_delegation,    
+    account_create_with_delegation, 
+    notFound,
+    notFound,
+    notFound,
+    notFound,
+    notFound,
+    notFound,
+    notFound,
+    notFound,
+    notFound,
+    contract_call,
     fill_convert_request,    
     author_reward,    
     curation_reward,    

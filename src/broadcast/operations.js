@@ -10,6 +10,11 @@ module.exports = [
     ]
   },
   {
+    "roles": ["active", "owner"],
+    "operation": "contract_call",
+    "params": ["caller", "contract_name", "method", "args"]
+  },
+  {
     "roles": ["posting", "active", "owner"],
     "operation": "comment",
     "params": [
